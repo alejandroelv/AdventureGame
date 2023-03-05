@@ -1,0 +1,105 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "level1.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "Todos los archivos (*)",
+    "fileStates": {
+        "Background.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "Bee.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "Boar.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/lordo/Downloads/libgdx-master/jumper2dx_v2/jumper2dx-desktop/assets/levels/level1.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.8358173076923077,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 624.5383951682485,
+                "y": 160.32211676732817
+            }
+        },
+        "C:/Users/lordo/Downloads/libgdx-master/jumper2dx_v2/jumper2dx-desktop/assets/levels/level1.tmx#enemy": {
+            "scaleInDock": 1
+        },
+        "C:/Users/lordo/Downloads/libgdx-master/jumper2dx_v2/jumper2dx-desktop/assets/levels/level1.tmx#tileset": {
+            "scaleInDock": 1
+        },
+        "Terrain_Tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "level1..tmx": {
+            "scale": 1.1240301724137929,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 463.51068929153496,
+                "y": 183.26910171603876
+            }
+        },
+        "level1.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 1.5,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 363.99999999999994,
+                "y": 303.33333333333326
+            }
+        },
+        "level2.tmx": {
+            "expandedObjectLayers": [
+                5
+            ],
+            "scale": 1.5,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 669.3333333333333,
+                "y": 234.66666666666669
+            }
+        }
+    },
+    "last.exportedFilePath": "C:/Users/lordo/Desktop/Nueva carpeta (2)/assets/levels",
+    "last.objectTemplatePath": "C:/Users/lordo/Desktop/Nueva carpeta (2)/assets/levels",
+    "map.height": 30,
+    "map.lastUsedExportFilter": "Todos los archivos (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 64,
+    "openFiles": [
+        "level1.tmx",
+        "Boar.tsx",
+        "level1..tmx"
+    ],
+    "project": "Side_Scroller.tiled-project",
+    "property.type": "float",
+    "recentFiles": [
+        "level1.tmx",
+        "level1..tmx",
+        "Boar.tsx",
+        "C:/Users/lordo/Downloads/libgdx-master/jumper2dx_v2/jumper2dx-desktop/assets/levels/level1.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.type": 0
+}
