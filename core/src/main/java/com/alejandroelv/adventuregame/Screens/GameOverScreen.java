@@ -37,7 +37,7 @@ public class GameOverScreen implements Screen{
                 ResourceManager.playSound(ResourceManager.getSound("click"));
                 ResourceManager.getSound("gameOver").pause();
                 game.setScreen(new MainMenuScreen(game));
-                return;
+                this.dispose();
             }
             
             if (quitBounds.contains(touchPoint.x, touchPoint.y)) {

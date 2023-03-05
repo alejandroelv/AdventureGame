@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="64" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="40">
  <properties>
-  <property name="limiteDerecho" type="float" value="767"/>
+  <property name="limiteDerecho" type="float" value="795"/>
   <property name="limiteInferior" type="float" value="180"/>
   <property name="limiteIzquierdo" type="float" value="255.67"/>
   <property name="limiteSuperior" type="float" value="300"/>
@@ -154,12 +154,12 @@
     <property name="enemigo" value="Abeja"/>
    </properties>
   </object>
-  <object id="3" gid="1153" x="393" y="137" width="16" height="16">
+  <object id="3" gid="1153" x="388.333" y="117" width="16" height="16">
    <properties>
     <property name="enemigo" value="Abeja"/>
    </properties>
   </object>
-  <object id="4" gid="1153" x="453" y="137" width="16" height="16">
+  <object id="4" gid="1153" x="451.667" y="117.667" width="16" height="16">
    <properties>
     <property name="enemigo" value="Abeja"/>
    </properties>

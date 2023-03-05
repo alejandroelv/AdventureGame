@@ -40,7 +40,7 @@ public class MainMenuScreen implements Screen {
                 ResourceManager.playSound(ResourceManager.getSound("click"));
                 ResourceManager.getSound("mainMenu").pause();
                 game.setScreen(new GameScreen(game));
-                return;
+                this.dispose();
             }
             
             if (quitBounds.contains(touchPoint.x, touchPoint.y)) {

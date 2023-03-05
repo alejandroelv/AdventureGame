@@ -58,6 +58,7 @@ public class LevelManager {
     public static void loadMap() {
         LevelManager.map = new TmxMapLoader().load(LevelManager.getCurrentLevelPath());
         LevelManager.collisionLayer = (TiledMapTileLayer) LevelManager.map.getLayers().get("Terreno");        
+        System.out.println("Soy el nivel " + LevelManager.getCurrentLevelName());
         loadObjetos();
         
         //Se cargan las propiedades del mapa
@@ -79,6 +80,7 @@ public class LevelManager {
             if (object instanceof TextureMapObject) {
                 TextureMapObject textureObject = (TextureMapObject) object;
                 if (textureObject.getProperties().containsKey("enemigo")) {
+                    System.out.println("Se carga 1 enemigo");
                     agregarEnemigo(textureObject);
                 }else if(textureObject.getProperties().containsKey("item")){
                     agregarItem(textureObject);

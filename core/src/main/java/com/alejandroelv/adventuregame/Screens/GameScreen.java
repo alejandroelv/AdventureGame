@@ -113,16 +113,19 @@ public class GameScreen implements Screen{
     
     private void acabarNivel(){
         LevelManager.finishLevel();
-        if(LevelManager.currentLevel == 3){
+        if(LevelManager.currentLevel == 4){
             this.juego.setScreen(new MainMenuScreen(juego));
+            this.dispose();
         }else{
             this.juego.setScreen(new GameScreen(juego));
+            this.dispose();
         }
     }
     
     private void reiniciarNivel(){
         LevelManager.clearLevel();
         this.juego.setScreen(new GameScreen(juego));
+        this.dispose();
     }
 
     private void pintarTextos(){
@@ -151,7 +154,6 @@ public class GameScreen implements Screen{
 
     @Override
     public void resize(int width, int height) {
-        camera.setToOrtho(false, 20 * width / height, 20);
     }
 
     @Override

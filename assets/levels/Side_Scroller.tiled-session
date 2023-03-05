@@ -58,8 +58,8 @@
             "scale": 1.5,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 363.99999999999994,
-                "y": 303.33333333333326
+                "x": 363.6666666666667,
+                "y": 302
             }
         },
         "level2.tmx": {
@@ -69,8 +69,19 @@
             "scale": 1.5,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 669.3333333333333,
-                "y": 234.66666666666669
+                "x": 775,
+                "y": 53.33333333333334
+            }
+        },
+        "level3.tmx": {
+            "expandedObjectLayers": [
+                5
+            ],
+            "scale": 3,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 284.8333333333333,
+                "y": 358
             }
         }
     },
